@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4
+          https://schema.datacite.org/meta/kernel-4/metadata.xsd">
+
+  <!-- ============================================================
+       DataCite Metadata Schema 4.5
+       Dataset: Iris Flower Dataset
+       Source:  UCI Machine Learning Repository
+       Created: 2026-04-24
+       ============================================================ -->
+
+  <!-- 1. Identifier -->
+  <identifier identifierType="DOI">10.24432/C56C76</identifier>
+
+  <!-- 2. Creators -->
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Fisher, Ronald A.</creatorName>
+      <givenName>Ronald A.</givenName>
+      <familyName>Fisher</familyName>
+      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org/">
+        46784783
+      </nameIdentifier>
+      <affiliation>University of London</affiliation>
+    </creator>
+  </creators>
+
+  <!-- 3. Title -->
+  <titles>
+    <title xml:lang="en">Iris Flower Dataset</title>
+    <title xml:lang="en" titleType="AlternativeTitle">Fisher's Iris Dataset</title>
+  </titles>
+
+  <!-- 4. Publisher -->
+  <publisher xml:lang="en">UCI Machine Learning Repository</publisher>
+
+  <!-- 5. Publication Year -->
+  <publicationYear>1936</publicationYear>
+
+  <!-- 6. Subject / Keywords -->
+  <subjects>
+    <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)"
+             schemeURI="https://id.loc.gov/authorities/subjects.html">
+      Iris (Plant)
+    </subject>
+    <subject xml:lang="en">Machine Learning</subject>
+    <subject xml:lang="en">Classification</subject>
+    <subject xml:lang="en">Multivariate Statistics</subject>
+    <subject xml:lang="en">Flower Morphology</subject>
+    <subject xml:lang="en">Supervised Learning</subject>
+  </subjects>
+
+  <!-- 7. Contributors -->
+  <contributors>
+    <contributor contributorType="DataManager">
+      <contributorName nameType="Organizational">
+        UCI Machine Learning Repository
+      </contributorName>
+      <affiliation>University of California, Irvine</affiliation>
+    </contributor>
+  </contributors>
+
+  <!-- 8. Dates -->
+  <dates>
+    <date dateType="Created">1936</date>
+    <date dateType="Submitted">1988</date>
+    <date dateType="Updated">2023-11-13</date>
+  </dates>
+
+  <!-- 9. Language -->
+  <language>en</language>
+
+  <!-- 10. Resource Type -->
+  <resourceType resourceTypeGeneral="Dataset">Tabular Data</resourceType>
+
+  <!-- 11. Related Identifiers -->
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL"
+                       relationType="IsDescribedBy">
+      https://archive.ics.uci.edu/dataset/53/iris
+    </relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI"
+                       relationType="IsReferencedBy">
+      10.1111/j.1469-1809.1936.tb02137.x
+    </relatedIdentifier>
+  </relatedIdentifiers>
+
+  <!-- 12. Format -->
+  <formats>
+    <format>text/csv</format>
+  </formats>
+
+  <!-- 13. Version -->
+  <version>1.0</version>
+
+  <!-- 14. Rights -->
+  <rightsList>
+    <rights xml:lang="en"
+            rightsURI="https://creativecommons.org/licenses/by/4.0/"
+            rightsIdentifier="CC-BY-4.0"
+            rightsIdentifierScheme="SPDX">
+      Creative Commons Attribution 4.0 International
+    </rights>
+  </rightsList>
+
+  <!-- 15. Description -->
+  <descriptions>
+    <description xml:lang="en" descriptionType="Abstract">
+      The Iris dataset is one of the most well-known datasets in the pattern recognition
+      literature, first introduced by British statistician and biologist Ronald A. Fisher
+      in his 1936 paper "The use of multiple measurements in taxonomic problems." It
+      contains 150 observations of iris flowers across three species (Iris setosa,
+      Iris virginica, and Iris versicolor), with four morphological features recorded
+      for each sample: sepal length, sepal width, petal length, and petal width, all
+      measured in centimetres. The dataset is widely used for testing classification
+      algorithms and exploratory data analysis in machine learning and statistics.
+    </description>
+    <description xml:lang="en" descriptionType="Methods">
+      Measurements were collected by Edgar Anderson at the Gaspé Peninsula, Canada.
+      Each of the three iris species is represented by 50 samples. Measurements
+      include sepal length (cm), sepal width (cm), petal length (cm), and petal
+      width (cm).
+    </description>
+    <description xml:lang="en" descriptionType="TechnicalInfo">
+      Format: CSV | Rows: 150 | Columns: 5 (sepal_length, sepal_width, petal_length,
+      petal_width, species) | Missing values: None | Classes: 3
+      (Iris-setosa, Iris-versicolor, Iris-virginica)
+    </description>
+  </descriptions>
+
+  <!-- 16. GeoLocations (where data was collected) -->
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Gaspé Peninsula, Quebec, Canada</geoLocationPlace>
+      <geoLocationPoint>
+        <pointLongitude>-64.4963</pointLongitude>
+        <pointLatitude>48.7743</pointLatitude>
+      </geoLocationPoint>
+    </geoLocation>
+  </geoLocations>
+
+  <!-- 17. Funding References -->
+  <fundingReferences>
+    <fundingReference>
+      <funderName>University of London</funderName>
+    </fundingReference>
+  </fundingReferences>
+
+</resource>

@@ -1,0 +1,209 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+
+  "_comment": "Schema.org metadata for the Iris Flower Dataset — Fisher (1936). Follows Google Dataset Search guidelines and schema.org Dataset specification.",
+
+  "name": "Iris Flower Dataset",
+  "alternateName": "Fisher's Iris Dataset",
+
+  "description": "The Iris dataset contains 150 observations of iris flowers across three species (Iris setosa, Iris virginica, and Iris versicolor), with four morphological features: sepal length, sepal width, petal length, and petal width (all in cm). First introduced by Ronald A. Fisher in 1936, it is one of the most widely used benchmark datasets in machine learning and multivariate statistics.",
+
+  "url": "https://archive.ics.uci.edu/dataset/53/iris",
+
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.24432/C56C76",
+      "url": "https://doi.org/10.24432/C56C76"
+    }
+  ],
+
+  "version": "1.0",
+
+  "dateCreated": "1936",
+  "datePublished": "1988",
+  "dateModified": "2023-11-13",
+
+  "inLanguage": "en",
+
+  "creator": {
+    "@type": "Person",
+    "name": "Ronald A. Fisher",
+    "givenName": "Ronald",
+    "familyName": "Fisher",
+    "honorificSuffix": "FRS",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of London"
+    },
+    "sameAs": "https://viaf.org/viaf/46784783"
+  },
+
+  "contributor": {
+    "@type": "Person",
+    "name": "Edgar Anderson",
+    "description": "Collected the original flower measurements at the Gaspé Peninsula, Canada"
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "UCI Machine Learning Repository",
+    "url": "https://archive.ics.uci.edu/",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "University of California, Irvine"
+    }
+  },
+
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+
+  "isAccessibleForFree": true,
+
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data",
+      "name": "iris.data (CSV)"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/plain",
+      "contentUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.names",
+      "name": "iris.names (Dataset description)"
+    }
+  ],
+
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sepal_length",
+      "description": "Length of the sepal in centimetres",
+      "unitCode": "CMT",
+      "unitText": "centimetre",
+      "minValue": 4.3,
+      "maxValue": 7.9
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sepal_width",
+      "description": "Width of the sepal in centimetres",
+      "unitCode": "CMT",
+      "unitText": "centimetre",
+      "minValue": 2.0,
+      "maxValue": 4.4
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "petal_length",
+      "description": "Length of the petal in centimetres",
+      "unitCode": "CMT",
+      "unitText": "centimetre",
+      "minValue": 1.0,
+      "maxValue": 6.9
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "petal_width",
+      "description": "Width of the petal in centimetres",
+      "unitCode": "CMT",
+      "unitText": "centimetre",
+      "minValue": 0.1,
+      "maxValue": 2.5
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "species",
+      "description": "Iris species class label",
+      "valueReference": [
+        { "@type": "DefinedTerm", "name": "Iris setosa" },
+        { "@type": "DefinedTerm", "name": "Iris versicolor" },
+        { "@type": "DefinedTerm", "name": "Iris virginica" }
+      ]
+    }
+  ],
+
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Gaspé Peninsula, Quebec, Canada",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.7743,
+      "longitude": -64.4963
+    }
+  },
+
+  "temporalCoverage": "1936",
+
+  "measurementTechnique": "Direct morphological measurement of flower specimens with a ruler",
+
+  "keywords": [
+    "iris",
+    "flower morphology",
+    "classification",
+    "machine learning",
+    "multivariate statistics",
+    "supervised learning",
+    "benchmark dataset",
+    "pattern recognition"
+  ],
+
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Iris setosa",
+      "sameAs": "https://www.wikidata.org/wiki/Q158988"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Iris versicolor",
+      "sameAs": "https://www.wikidata.org/wiki/Q160242"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Iris virginica",
+      "sameAs": "https://www.wikidata.org/wiki/Q161825"
+    }
+  ],
+
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "name": "The use of multiple measurements in taxonomic problems",
+    "author": "Ronald A. Fisher",
+    "datePublished": "1936",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Annals of Eugenics"
+    },
+    "volumeNumber": "7",
+    "pageStart": "179",
+    "pageEnd": "188",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1111/j.1469-1809.1936.tb02137.x"
+    }
+  },
+
+  "size": {
+    "@type": "QuantitativeValue",
+    "description": "150 rows × 5 columns; no missing values; 3 balanced classes of 50 samples each"
+  },
+
+  "encodingFormat": "text/csv",
+
+  "conditionsOfAccess": "Freely accessible without registration. Attribution required under CC-BY 4.0.",
+
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "name": "The use of multiple measurements in taxonomic problems",
+    "identifier": "10.1111/j.1469-1809.1936.tb02137.x"
+  },
+
+  "sameAs": [
+    "https://www.kaggle.com/datasets/uciml/iris",
+    "https://scikit-learn.org/stable/datasets/toy_dataset.html#iris-dataset"
+  ]
+}
